@@ -16,7 +16,10 @@ public class Main
 
     public static void main(String args[])throws IOException
     {
-    /*solutions begins here*/
+       /*solutions begins here*/
+      /*solutions begins here*/
+        
+        
     	int N=i();
    		int f[]=new int[1000001];
     	set=new boolean[1000001];
@@ -24,21 +27,24 @@ public class Main
     	for(int i=0; i<N; i++)
     	{
     		A[i]=i();
-    	f[A[i]]++;	
+    	    f[A[i]]++;	
     	}
+        
     	sort(A);
+        
     	int c=0;
-    	for(int i=0; i<N; i++)
+
+        for(int i=0; i<N; i++)
     	{
     		if(!set[A[i]])
     		{
     			
     			for(int s=A[i]; s<=1000000; s+=A[i])set[s]=true;
-    	  if(f[A[i]]==1)
-          {
-          c++;
-          ans.append(A[i]+" ");
-          }
+    	        if(f[A[i]]==1)
+                 {
+                  c++;
+                  ans.append(A[i]+" ");
+                 }
     		}
     	}
     	if(c==0)
@@ -46,8 +52,12 @@ public class Main
             System.out.println(-1);
             return;
         }
+        
     	System.out.println(c+"\n"+ans);
-      /*solution end here*/
+        
+        
+        /*solution ends here */
+       /*solution ends here*/
     }
     	
     
