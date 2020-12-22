@@ -2,11 +2,13 @@ There is chaos in CODE-CITY, crime is everywhere and our superhero CHEF has to s
 
 Inorder to defeat Mr.BUG , CHEF has to enter the gangsta's secret vault and destroy everything he owns. The vault is highly gaurded and can be opened only by a secret passcode.
 
-CHEF has an Array of length N and he has to pick all the Ai (1<=i<=N) such that there is only one Aj (1<=j<=N) which divides Ai. 
-  
-The passcode is the sequence of these Integers arranged in INCREASING order. 
+CHEF has an Array of length N and he has to pick all the Ai (1<=i<=N) such that there is only one Aj (1<=j<=N) which divides Ai.
+
 More Formally :- Find all the integers Ai (1<=i<=N) with the following property:
                  For every integer Aj (1<=j<=N) such that i ≠ j , Aj does not divide Ai.
+  
+The passcode is the sequence of these Integers arranged in INCREASING order. 
+
                  
 Your task is to find this passcode. 
 
@@ -40,7 +42,7 @@ INPUT:
 
 OUTPUT:
 4
-2 7 5 11
+2 5 7 11
 
 EXPLANATION: The Integers picked By CHEF are  5 2 7 ans 11. On arranging them in increasing order we have 2 5 7 11.
 
