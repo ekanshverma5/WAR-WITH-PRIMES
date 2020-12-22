@@ -1,0 +1,31 @@
+There is chaos in CODE-CITY, crime is everywhere and our superhero CHEF has to save the city.  The master-mind of these crimes is the gangsta named BUG. 
+
+Inorder to defeat Mr.BUG , CHEF has to enter the gangsta's secret vault and destroy everything he owns. The vault is highly gaurded and can be opened only by a secret passcode.
+
+CHEF has an Array of length N and he has to pick all the Ai (1<=i<=N) such that there is only one Aj (1<=j<=N) which divides Ai. 
+
+The passcode is the sequence of these Integers arranged in INCREASING order. 
+
+Your task is to find this passcode. 
+
+If there is no such Ai,return -1;
+
+CONSTRAINTS:
+
+1<=N<=2*10^5
+1<=Ai<=10^6
+
+
+INPUT:
+1> First line contains an Integer N
+2> Second line contains N space seperated Integers describing the array A.
+
+OUTPUT:
+IF there is a Passcode:
+            Print the count(c) of Integers in the passcode in FIRST LINE
+            Print c space seperated Integers in the SECOND LINE
+IF there is no passcode:
+            Print -1
+            
+            
+            
