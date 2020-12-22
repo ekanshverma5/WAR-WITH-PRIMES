@@ -34,10 +34,10 @@ public class Main
     		{
     			
     			for(int s=A[i]; s<=1000000; s+=A[i])set[s]=true;
-    			if(f[A[i]]==1)
+    	  if(f[A[i]]==1)
           {
           c++;
-          ans.append(c+" ");
+          ans.append(A[i]+" ");
           }
     		}
     	}
